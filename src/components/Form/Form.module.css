@@ -1,0 +1,85 @@
+.page{
+  position: absolute;
+  background-image: url("https://opengameart.org/sites/default/files/bg_space_seamless_1.png");
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+form {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 400px;
+  height: 500px;
+  background-color: azure;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.form{
+  width: 100%;
+}
+
+.group{
+  position: relative;
+  margin: 50px;
+}
+
+.input {
+  background: none;
+  color: #c6c6c6;
+  font-size: 18px;
+  padding: 10px 10px 10px 0;
+  display: block;
+  width: 100%;
+  border:none;
+  border-bottom: 1px solid rgba(105, 102, 102, 0.658);
+}
+
+.input:focus{
+  outline: none;
+  color: rgb(36, 36, 36);
+}
+
+.input:focus~label,
+.input:valid~label{
+  position: absolute;
+  top: -14px;
+  font-size: 12px;
+  color: #2196f3;
+}
+
+.label{
+  color:rgba(105, 102, 102, 0.658);
+  font-size: 16px;
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  transition: 0.5s ease all;
+}
+
+.submit{
+  background-color: #2196f3;
+  display: block;
+  width: 100px;
+  height: 40px;
+  border:none;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.image{
+  position:absolute;
+  max-width: 400px;
+  top: -235px;
+  left: -15px;
+}
